@@ -50,3 +50,19 @@ library(marginaleffects)  # Marginal predictions & plots
 # Output and reproducibility
 library(modelsummary)
 library(quarto)
+library(lme4)
+model <- lmer(inequality ~ education + income + (1 + income | country), data = oecd_panel)
+summary(model)
+performance::icc(model)
+Quantitative_Sociology_R/
+├── Week01_Data/
+│   ├── data_intro.R
+│   └── survey_clean.csv
+├── Week02_Descriptive/
+├── Week03_Regression/
+├── Week04_GLM/
+├── Week05_HLM_GEE/
+├── Week06_SEM/
+├── Week07_Visualization/
+├── Week08_OpenScience/
+└── Project_Replication/
