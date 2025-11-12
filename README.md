@@ -78,7 +78,7 @@
 
 <hr/>
 
-<h3>🧪 Example: Multilevel Model</h3>
+<h3>Example: Multilevel Model</h3>
 <pre><code>library(lme4)
 library(performance)
 
@@ -91,7 +91,7 @@ performance::icc(model)
 
 <hr/>
 
-<h3>📂 Repository Structure</h3>
+<h3>Repository Structure</h3>
 <pre><code>Quantitative_Sociology_R/
 ├── Week01_Data/
 ├── Week02_Descriptive/
@@ -106,7 +106,7 @@ performance::icc(model)
 
 <hr/>
 
-<h3>🔑 Key R Packages</h3>
+<h3>Key R Packages</h3>
 <pre><code>library(tidyverse)
 library(lme4)
 library(geepack)
