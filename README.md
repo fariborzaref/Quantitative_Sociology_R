@@ -3,13 +3,13 @@
 
 ---
 
-### 📘 Overview
+### Overview
 This repository accompanies the course **Quantitative Sociology with R**, a graduate and upper-undergraduate course designed to integrate sociological theory with rigorous statistical modeling.  
 Students move from conceptualizing inequality and structure to producing fully reproducible R analyses and reports.
 
 ---
 
-### 🎯 Course Objectives
+### Course Objectives
 - Translate sociological questions into measurable variables and models.  
 - Master regression, GLM, GEE, HLM, and SEM using real-world social data.  
 - Apply visualization and interpretation techniques that communicate evidence clearly.  
@@ -18,7 +18,7 @@ Students move from conceptualizing inequality and structure to producing fully r
 
 ---
 
-### 🧠 Core Topics by Module
+### Core Topics by Module
 | Week | Theme | Core Focus |
 |------|--------|-------------|
 | **1** | Foundations of Sociological Data | Tidy data, measurement, and validity |
@@ -32,7 +32,7 @@ Students move from conceptualizing inequality and structure to producing fully r
 
 ---
 
-### 🧩 Key R Packages
+### Key R Packages
 ```r
 # Core workflow
 library(tidyverse)
